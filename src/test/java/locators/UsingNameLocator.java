@@ -15,7 +15,7 @@ public class UsingNameLocator {
         signInElement.sendKeys("mohammadi@135");
 
         By passwordLocater = By.name("pass");
-        WebElement passElement =  driver.findElement(passwordLocater;
+        WebElement passElement =  driver.findElement(passwordLocater);
         signInElement.sendKeys("22222rrr");
     }
 }
