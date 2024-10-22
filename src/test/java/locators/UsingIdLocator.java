@@ -13,8 +13,11 @@ public class UsingIdLocator {
         By signInLink = By.id("signinLink");
         // Step 2. ask Selenium to find the element.
         WebElement signInElement = driver.findElement(signInLink);
-        // perform the action
         signInElement.click();
+        By creatAccount = By.id("newAccountBtn");
+        WebElement accountElement = driver.findElement(creatAccount);
+        // perform the action
+        accountElement.click();
         driver.quit();
 
     }
