@@ -13,7 +13,7 @@ public class UsingNameLocator {
 
         By signInLink = By.name("email");
         WebElement signInElement =  driver.findElement(signInLink);
-        signInElement.sendKeys("mohammadi135@gmail.com");
+        signInElement.sendKeys("mohammadi776@gmail.com");
         Thread.sleep(3000);
         By passwordLocater = By.name("pass");
         WebElement passElement =  driver.findElement(passwordLocater);

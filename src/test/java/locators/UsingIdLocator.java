@@ -24,6 +24,7 @@ public class UsingIdLocator {
         By userName = By.id("nameInput");
         WebElement userNameElement = driver.findElement(userName);
         userNameElement.sendKeys("abdullah88@tekschool.come");
+        Thread.sleep(2000);
         driver.quit();
 
 
