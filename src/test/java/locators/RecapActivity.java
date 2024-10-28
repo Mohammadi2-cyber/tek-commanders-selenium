@@ -27,6 +27,10 @@ public class RecapActivity {
         WebElement loginBtnElement = driver.findElement(login);
         loginBtnElement.click();
         Thread.sleep(2000);
+        By errorMessage = By.className("error");
+        WebElement errorElement = driver.findElement(errorMessage);
+        String error = errorElement.getText();
+        System.out.println(error);
         driver.quit();
     }
 }

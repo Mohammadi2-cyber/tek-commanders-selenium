@@ -14,8 +14,8 @@ public class UsingTagNameLocator {
         Thread.sleep(1000);
 
         By linkLocator = By.tagName("a");
-        List<WebElement> allLinkElement = driver.findElements(linkLocator);
-        for(WebElement element: allLinkElement){
+        List<WebElement> allLinkElements = driver.findElements(linkLocator);
+        for(WebElement element: allLinkElements){
             String text = element.getText();
             System.out.println(text);
         }
