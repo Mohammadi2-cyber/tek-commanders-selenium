@@ -1,4 +1,4 @@
-package tek_selenium_week_1;
+package tek_selenium_week_1.dayOne;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 

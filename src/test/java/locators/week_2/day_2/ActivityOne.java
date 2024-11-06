@@ -1,7 +1,6 @@
-package locators.week_2;
+package locators.week_2.day_2;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
