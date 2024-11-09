@@ -1,4 +1,4 @@
-package week_3.day_2;
+package week_3.day_2.alerts;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
